@@ -1,0 +1,15 @@
+@media all and (max-width: 800px) {
+	p {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	}
+}
+
+@media all and (max-width: 500px) {
+	p {
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+	}
+}
